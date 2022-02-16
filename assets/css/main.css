@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.zones-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.zone-container {
+    margin: 0 20px;
+}
+
+.zone {
+    width: 402px;
+    min-height: 400px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.dragged {
+    width: 100px;
+    height: 100px;
+}
